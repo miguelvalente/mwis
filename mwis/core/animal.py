@@ -18,7 +18,7 @@ class Animal(NodeMixin):
         self.party_score = party_score
 
     def __repr__(self) -> str:
-        return f"Animal(name={self.name}," f"party_score={self.party_score})"
+        return f"Animal(name={self.name}, party_score={self.party_score})"
 
 
 def get_animals_tree(json_data: Path | list):

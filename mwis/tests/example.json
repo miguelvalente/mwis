@@ -1,0 +1,43 @@
+[
+    {
+    "name": "Mufasa",
+    "ruler": null,
+    "party-animal-score": 2.0
+    },
+
+    {
+    "name": "Simba",
+    "ruler": "Mufasa",
+    "party-animal-score": 12.1
+    },
+    {
+    "name": "Scar",
+    "ruler": "Mufasa",
+    "party-animal-score": 34.3
+    },
+    {
+    "name": "Nala",
+    "ruler": "Simba",
+    "party-animal-score": -0.4
+    },
+    {
+    "name": "Timon",
+    "ruler": "Nala",
+    "party-animal-score": 44.91
+    },
+    {
+    "name": "Pumba",
+    "ruler": "Nala",
+    "party-animal-score": -9999.99
+    },
+    {
+    "name": "Shenzi",
+    "ruler": "Scar",
+    "party-animal-score": 14.4
+    },
+    {
+    "name": "Ed",
+    "ruler": "Scar",
+    "party-animal-score": 25
+    }
+]

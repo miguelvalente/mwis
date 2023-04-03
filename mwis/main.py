@@ -34,11 +34,6 @@ def main(json_path: Path, include_king: bool = True):
         ", ".join([animal.name for animal in invited_list]), style="white on black bold"
     )
 
-    validation_score = sum([invited.party_score for invited in invited_list])
-
-    console.print(f"Validation score: {validation_score}", style=style_header)
-    pass
-
 
 if __name__ == "__main__":
     typer.run(main)

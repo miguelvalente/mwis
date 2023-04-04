@@ -1,15 +1,14 @@
 from pathlib import Path
 
 import typer
-from rich import print
-from rich.console import Console
 from anytree import RenderTree
+from rich.console import Console
 
-from core.mwis import mwis
 from core.animal import get_animals_tree
+from core.mwis import mwis
 
 
-def main(json_path: Path, include_king: bool = True):
+def main(json_path: Path, include_king: bool = True) -> None:
     console = Console(
         width=400,
         height=200,

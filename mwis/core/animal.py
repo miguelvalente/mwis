@@ -1,12 +1,23 @@
 from __future__ import annotations
+
 import json
-from pathlib import Path
 from collections import OrderedDict
+from pathlib import Path
 
 from anytree import NodeMixin
 
 
 class Animal(NodeMixin):
+    '''
+    Animal class
+
+    Attributes:
+        name: Name of the animal
+        party_score: Party score of the animal
+        parent: Parent animal
+        children: Children animals
+    '''
+
     def __init__(
         self,
         name: str,
@@ -21,7 +32,7 @@ class Animal(NodeMixin):
         return f"Animal(name={self.name}, party_score={self.party_score})"
 
 
-def get_animals_tree(json_data: Path | list):
+def get_animals_tree(json_data: Path | list) -> tuple[Animal, dict[str, Animal]]:
     if isinstance(json_data, Path):
         with open(json_data) as f:
             json_data = json.load(f)

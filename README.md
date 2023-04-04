@@ -1,4 +1,4 @@
-# Maximum Weight Independent Set
+# Maximum Weight Independent Set 🦁🐗🦓
 
 This project is an implementation of the Maximum Weight Independent Set problem for trees in Python. A live demo of the project can be accessed through Streamlit [here](https://miguelvalente-mwis-mwisapphome-xxwek5.streamlit.app). You can upload your own JSON so as long as you follow the following strcture [JSON format example](https://github.com/miguelvalente/mwis/blob/master/mwis/tests/example.json).
 
